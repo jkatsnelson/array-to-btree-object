@@ -1,8 +1,8 @@
 var _ = require('lodash');
 
-var testTree = arrayToBTreeObject([5,6,4,3,2,1], function (item, treeItem) {
-  return item > treeItem;
-});
+// var testTree = arrayToBTreeObject([5,6,4,3,2,1], function (item, treeItem) {
+//   return item > treeItem;
+// });
 
 module.exports = arrayToBTreeObject;
 
